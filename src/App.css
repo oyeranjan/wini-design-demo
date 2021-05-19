@@ -1,38 +1,88 @@
 .App {
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
+/* Top NavBar CSS */
+.header-nav p {
+  text-decoration: none;
+  color: #5a5a5a;
+  font-size: 12px;
+  margin-bottom: 0 !important;
+}
+.header-nav p:hover {
+  color: #5a5a5a;
+  cursor:pointer;
+}
+ .navbar-brand{
+   padding: 0 !important;
+ }
+ .m-nav{
+   margin-top: 0rem !important;
+   padding-bottom: 0 !important;
+   padding-top: 0 !important;
+ }
+ nav input{
+   border: none!important;
+   width: 24rem !important;
+   border-radius: 0!important;
+   background-color: #eeeeee!important;
+ }
+ nav button{
+   border: none!important;
+   border-radius: 0!important;
+   color: #5a5a5a!important;
+   background-color: #eeeeee!important;
+ }
+ input:focus{
+   outline: #888888!important;
+   border-color: #888888!important;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+ }
+button:focus{
+   outline: #888888!important;
+   border-color: #888888!important;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ .nav-text{
+   font-size: 13px;
+ }
+ .s-text{
+   font-size: 14px;
+ }
+ .theme-color1{
+   color:#E8257C!important;
+ }
+ .theme-color2{
+   color: #FF4136;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .text-heading{
+   font-size:30px;
+   color: #31342F;
+ }
+ .col{
+   max-width: 10.5%;
+ }
+ .img-text{
+   font-size: 14px;
+   color:#333333;
+ }
+ .mt-n{
+   margin-top: -0.8rem;
+ }
+ .discount-price{
+   font-size: 18px;
+   color:#666565;
+ }
+ .btn{
+   background-color:#E8257C;
+   color:white;
+   width: 100px;
+ }
+ .footer-text{
+   font-size: 14px;
+   color:#a7a4a4;
+ }
